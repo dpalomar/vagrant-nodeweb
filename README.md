@@ -18,6 +18,7 @@ This a configuration project for a "Ready to go" vagrant image.
 4. [Ttroubleshotting](#8)
 5. [FAQ](#9)
 6. [License](#10)
+7. [Big Warning!!!](#warning)
 
 
 
@@ -178,12 +179,23 @@ There are two yeoman templates for generate projects with gulp, choose what you 
 ### I feel the environment 'slowly'
 
 - The image runs with 1cpu and 1Gb RAM
-- It is possible to add more virtual memory and cpus. Check your `vagranfile` for instructions or browser through the [Vagrant docs](https://www.vagrantup.com/docs/virtualbox/configuration.html "Vagrant docs")
+- It is possible to add more virtual memory and cpus. Check your `vagranfile` for instructions or browse through the [Vagrant docs](https://www.vagrantup.com/docs/virtualbox/configuration.html "Vagrant docs")
 
 ### Running  `yo webapp` or `yo gulp-angular` inside `projects` folder ends with an error and gulp serve does not work fine.
 
 1. If you are using a windows machine you need start `vagrant up` with administrator rights, because sym links.
 2. Could be that not all libraries were downloaded. Run `npm install` and try again.
+
+### <a name="warning"></a> Can I use CTRL+S to save a vim document?
+
+* No, read below.
+
+### After save a document in vim the terminal freezes
+
+* Yep, If you use CTRL+S (as many editors use ) to save documents, you freeze the terminal. On Unix systems this occurs with this shorcut. Please use CTRL+Q to back the terminal to live.
+
+
+
 
 ## <a name="9"></a>FAQ
 
