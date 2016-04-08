@@ -104,10 +104,10 @@ There are two yeoman templates for generate projects with gulp, choose what you 
 
 ## <a name="6"></a> Screenshots
 
-![Image capture of TMUX](images/zsh.png)
+![Image capture of TMUX](https://github.com/dpalomar/vagrant-nodeweb/blob/master/images/zsh.png)
 **TMUX screen capture**
 
-![Screen capture of Vim editor](images/vim.png)
+![Screen capture of Vim editor](https://github.com/dpalomar/vagrant-nodeweb/blob/master/images/vim.png)
 **VIM editor screen capture**
 
 ## <a name="7"></a>Installed vim plugins
