@@ -192,7 +192,7 @@ There are two yeoman templates for generate projects with gulp, choose what you 
 
 ### After save a document in vim the terminal freezes
 
-* Yep, If you use CTRL+S (as many editors use ) to save documents, you freeze the terminal. On Unix systems this occurs with this shorcut. Please use CTRL+Q to back the terminal to live.
+* Yep, If you use CTRL+S (as many editors use ) to save documents, you freeze the terminal. On Unix systems this occurs with this shortcut. Please use CTRL+Q to back the terminal to live.
 
 
 
