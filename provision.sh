@@ -30,15 +30,15 @@ cd /home/vagrant/
 git clone https://github.com/dpalomar/dot-vimrc.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-sed -i 's/colorscheme molokai_kenan/colorscheme solarized/g' ~/.vimrc
+#sed -i 's/colorscheme molokai_kenan/colorscheme solarized/g' ~/.vimrc
 #install nerd fonts
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20for%20Powerline%20Nerd%20Font%20Complete.otf
 
 fc-cache -vf ~/.local/share/fonts/
 #install node and so on.
-nvm install 0.12.12
-nvm alias default v0.12.12
+nvm install 6.9.4
+nvm alias default 6.9.4
 npm install -g npm
 npm install -g csslint
 npm install -g jshint
